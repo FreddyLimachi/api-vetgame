@@ -19,6 +19,6 @@
 - method: 'POST'
 - content-type: application/json:
 - body: {
-            username: "nombre de usuario"
+            username: "nombre de usuario",
             password: "contraseña"
         }
