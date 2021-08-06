@@ -1,9 +1,8 @@
-from datetime import datetime
 from flask_restful import Resource, reqparse
 from flask_jwt import jwt_required, current_identity
 from .models import FoodModel, PreparedModel
 from . import serializers as srl
-from datetime import datetime, timedelta, date
+from datetime import timedelta, date
 from flask_apispec import use_kwargs, doc, views
 
 
